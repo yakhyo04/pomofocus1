@@ -1,0 +1,31 @@
+.header {
+  width: 630px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.logo {
+  font-weight: 800;
+  margin-top: 8px;
+}
+.list {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background-color: #f2f2f227;
+}
+@media (max-width: 650px) {
+  .header {
+    width: 100%;
+  }
+}
